@@ -113,7 +113,7 @@ WHERE funcao = "Desenvolvedor" OR salario > 4200;
 -- 12
 SELECT COUNT(*) AS 'Endereço Almeida'
 FROM funcionarios
-WHERE Endereco = "&Almeida&"  OR salario < 3500;
+WHERE SegundoNome = "Almeida"  OR salario < 3500;
 
 -- 13
 SELECT MIN(salario) AS 'Designer'
