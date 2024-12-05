@@ -1,0 +1,21 @@
+DROP DATABASE db_brecho_do_gato;
+
+CREATE DATABASE db_brecho_do_gato;
+
+USE db_brecho_do_gato;
+
+CREATE TABLE cliente(
+id_cliente INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(45) NOT NULL,
+email VARCHAR(45) NOT NULL UNIQUE,
+cpf VARCHAR(11) NOT NULL UNIQUE,
+numero VARCHAR(11) NOT NULL UNIQUE
+);
+
+CREATE TABLE roupa(
+id_roupa INT PRIMARY KEY AUTO_INCREMENT,
+cor VARCHAR(45) NOT NULL,
+categoria VARCHAR(45) NOT NULL,
+estoque INT NOT NULL,
+tamanho VARCHAR(11) NOT NULL
+);

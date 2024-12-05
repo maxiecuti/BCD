@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(177, 142, 209);
+    background-attachment: fixed;
+    background-image: url(img/1052d814621015feb0e078652e691630.jpg);
+   }
+ 
+   img{
+    width: 40%;
+    height: 100%;
+    border-radius: 0%;
+ }
+   
+   label, input, select, textarea{
+       display: block ;
+       width: 95%;
+       padding: 10px;
+       margin-bottom: 20px;
+   }
+   .roboto-thin {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
+    form{
+       width: 550px;
+       margin: auto;
+       background: #b29abd;
+       padding: 40px;
+       border-radius: 10px;
+       color: rgb(92, 21, 119);
+       opacity: 0.9;
+    }
+    label{
+       padding: 0;
+       margin: 0;
+       width: 100% ;
+       font-size: 18px;
+    }
+    input[type='checkbox'], input[type='radio']{
+      margin-right: 0px;
+      margin-left: 15px;
+      
+   }
+   input:focus, select:focus, textarea:focus{
+      outline: none;
+      border: solid 1px #521c63;
+   }
+    #enviar{
+      width: 100%;
+      border: 2px solid #8b35bc;
+      background-color: #c891ff;
+      color: rgb(89, 14, 129);
+      font-weight: bold;
+      cursor: pointer;
+      padding: 15px;
+    }
+    #enviar:hover{
+     background-color: #7b33ab;
+     color: #ffffff;
+   transition:all linear 0.3;
+    }
+   
+   button{
+      text-align: center;
+   }
